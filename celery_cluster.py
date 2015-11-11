@@ -13,7 +13,7 @@ cluster.conf.update(**{
     'CELERYBEAT_SCHEDULE': {
         'go-cluster': {
             'task': 'tasks.start_cluster',
-            'schedule': celery.schedules.crontab(hour=22, minute=35),
+            'schedule': celery.schedules.crontab(hour=22, minute=38),
             'args': [5000]
         }
     }
