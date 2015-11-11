@@ -38,4 +38,4 @@ def start_cluster(n):
 def finish(results):
 
     for result in results:
-        logger.info(result)
+        logger.info('result: {}'.format(result))
