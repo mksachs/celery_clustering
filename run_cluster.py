@@ -1,3 +1,3 @@
 import tasks
 
-tasks.start_cluster.delay(100)
+tasks.start_cluster.delay(10000)
