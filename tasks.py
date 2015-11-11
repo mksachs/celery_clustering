@@ -13,6 +13,7 @@ logger.level = logging.INFO
 
 @celery_cluster.cluster.task()
 def do_process(num):
+    time.sleep(.2)
     return num
 
 
